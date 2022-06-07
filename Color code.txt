@@ -1,0 +1,2 @@
+green: #0C646D
+brown/grey: #7A7876

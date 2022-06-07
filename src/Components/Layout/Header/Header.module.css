@@ -1,0 +1,18 @@
+.headerWrap{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.headerWrap h1{
+    color: #0C646D;
+    font-weight: 800;
+}
+
+
+@media (min-width: 768px) {
+    .mobile{
+        display: none;
+    }
+}

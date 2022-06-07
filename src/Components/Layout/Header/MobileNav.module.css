@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    .mobile{
+        display: none;
+    }
+}
+
+.fontIcon{
+    font-size: 1.5em;
+}
