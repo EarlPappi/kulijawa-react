@@ -1,0 +1,17 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin: 1.2em auto;
+}
+
+h2{
+    margin-top: .3em;
+    color: #7A7876;
+    font-weight: 700;
+}
+p{
+    line-height: 200%;
+    margin: .4em auto;
+    color: #7A7876;
+}
