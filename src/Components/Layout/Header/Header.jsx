@@ -23,17 +23,17 @@ const Header = () => {
                 <h1>KULIJAWA</h1>
 
                 <DesktopNav/>
-                <MobileNav toggleIcon={ toggleIcon } toggleMenu={toggleMenu}/>    
+                <MobileNav toggleIcon={ toggleIcon } toggleMenu={toggleMenu} className={ classes.stayUp }/>    
             </div>
 
             
-            { showMenu && <nav className={`${classes.mobile} ${classes.nav}`}>
-                    <a href="./">Home</a>
-                    <a href="./">Services</a>
-                    <a href="./">Gallery</a>
-                    <a href="./">Project</a>
-                    <a href="./">About Us</a>
-                    <a href="./">Contact Us</a>
+            { showMenu && <nav className={`${classes.mobile} ${classes.mobileNav}`}>
+                    <a href="./">HOME</a>
+                    <a href="./">SERVICES</a>
+                    <a href="./">GALLERY</a>
+                    <a href="./">PROJECT</a>
+                    <a href="./">ABOUT US</a>
+                    <a href="./">CONTACT US</a>
                 </nav> }
             
         </React.Fragment>

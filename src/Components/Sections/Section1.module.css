@@ -1,0 +1,28 @@
+.section1 h1{
+    font-size: 3.5em;
+    font-weight: 900;
+}
+
+.section1 p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 170%;
+}
+
+.section1 a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0C646D;
+    padding: 1em 0;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.section1 a:hover{
+    outline: #0C646D 2px solid;
+    color: #0C646D;
+    background-color: aliceblue;
+}

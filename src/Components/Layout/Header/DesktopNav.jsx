@@ -17,7 +17,7 @@ const Nav = () => {
                 </nav>
 
                 <nav>
-                    <a href="./">Contact Us</a>
+                    <a href="./" className={ classes.btn }>Contact Us</a>
                 </nav>
             </div>
 

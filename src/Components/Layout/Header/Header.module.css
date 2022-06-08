@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    border-bottom: #0C646D solid 2px;
 }
 
 .headerWrap h1{
@@ -15,4 +18,33 @@
     .mobile{
         display: none;
     }
+}
+
+.mobileNav{
+    height: 100vh;
+    text-align: center;
+    background-color: #0C646D;
+    padding-top: 2em;
+    position: absolute;
+    top: 5em;
+    right: 0;
+    width: 100vw;
+    z-index: 2;
+
+}
+
+.mobileNav a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.mobileNav a:hover{
+    background-color: aliceblue;
 }

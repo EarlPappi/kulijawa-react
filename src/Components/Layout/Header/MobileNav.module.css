@@ -6,4 +6,5 @@
 
 .fontIcon{
     font-size: 1.5em;
+    z-index: 23333 !important;
 }
