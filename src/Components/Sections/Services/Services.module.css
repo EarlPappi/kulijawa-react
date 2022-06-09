@@ -5,6 +5,12 @@
     margin: 1.2em auto;
 }
 
+@media (min-width: 767px) {
+    .services{
+        flex-direction: row;
+    }
+}
+
 h2{
     margin-top: .3em;
     color: #7A7876;
